@@ -3092,6 +3092,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ABC123__c-ABC123 LAYOUT TEST ME %3A%29 %3AD</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>A_Game_For_Layout_Dev__c-A Game %28Layout Dev%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

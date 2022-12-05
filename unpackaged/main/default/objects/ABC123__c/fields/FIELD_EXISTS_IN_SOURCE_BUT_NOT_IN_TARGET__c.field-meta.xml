@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIELD_EXISTS_IN_SOURCE_BUT_NOT_IN_TARGET__c</fullName>
+    <description>This field exists in my source org, but not in the target. Deploying the field to a layout without also deploying the custom object field should cause the PA to complain.</description>
+    <externalId>false</externalId>
+    <label>FIELD EXISTS IN SOURCE BUT NOT IN TARGET</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

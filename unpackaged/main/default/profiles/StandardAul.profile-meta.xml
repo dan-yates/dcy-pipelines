@@ -3,6 +3,31 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A_Game_For_Layout_Dev__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>A_Game_For_Layout_Dev__c.Positive_Reviews__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>A_Game_For_Layout_Dev__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>A_Game_For_Layout_Dev__c.Soundtrack__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>A_Game_For_Layout_Dev__c.Tags__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3087,6 +3112,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>A_Game_For_Layout_Dev__c-A Game %28Layout Dev%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Game_For_Layout_Dev__c-A Game %28Layout Dev%29 Layout</layout>
+        <recordType>A_Game_For_Layout_Dev__c.Example_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Game_Soundtrack__c-Soundtrack Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3467,6 +3502,11 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>A_Game_For_Layout_Dev__c.Example_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>

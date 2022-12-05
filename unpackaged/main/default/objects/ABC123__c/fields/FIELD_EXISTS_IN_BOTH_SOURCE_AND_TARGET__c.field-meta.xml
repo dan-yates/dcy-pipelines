@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIELD_EXISTS_IN_BOTH_SOURCE_AND_TARGET__c</fullName>
+    <description>This field exists in both source and target, and should be deployable directly onto the Layout.</description>
+    <externalId>false</externalId>
+    <label>FIELD EXISTS IN BOTH SOURCE AND TARGET</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

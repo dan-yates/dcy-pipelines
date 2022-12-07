@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <description>This is just a test email alert inside a Flow</description>
-        <name>Testing_flow_game_update</name>
-        <label>Testing flow game update</label>
+        <name>Game_email_alert</name>
+        <label>Game email alert</label>
         <locationX>176</locationX>
         <locationY>335</locationY>
-        <actionName>ABC123__c.Dan_s_new_workflow_email_alert</actionName>
+        <actionName>A_Game_For_Layout_Dev__c.New_or_Updated_Game_Email_Alert</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -43,7 +42,7 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Testing_flow_game_update</targetReference>
+            <targetReference>Game_email_alert</targetReference>
         </connector>
         <filterLogic>or</filterLogic>
         <filters>

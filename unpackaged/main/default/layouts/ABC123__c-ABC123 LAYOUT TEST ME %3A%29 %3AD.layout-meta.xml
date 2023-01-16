@@ -73,6 +73,10 @@
                 <behavior>Edit</behavior>
                 <field>ABC123_NUMBER_FIELD__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Another_really_long_field_name_asjhdkajs__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -81,9 +85,9 @@
         <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
         <label>3 - (Only Visible in Detail View)</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <layoutSections>
@@ -91,8 +95,8 @@
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>4 - My Empty 2 Col Section Top Down</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
@@ -100,8 +104,8 @@
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>5 - Empty 2 Col Left right</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -109,8 +113,8 @@
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>7 - CHECKBOX LEFT RIGHT</label>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -159,7 +163,7 @@
                 <field>FOUR__c</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <relatedLists>

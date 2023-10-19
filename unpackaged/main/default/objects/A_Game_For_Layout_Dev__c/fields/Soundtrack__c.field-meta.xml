@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soundtrack__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Soundtrack for this game.</description>
+    <externalId>false</externalId>
+    <label>Soundtrack</label>
+    <referenceTo>A_Game_Soundtrack__c</referenceTo>
+    <relationshipLabel>.Games - (Layout Dev)</relationshipLabel>
+    <relationshipName>Games_Layout_Dev</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

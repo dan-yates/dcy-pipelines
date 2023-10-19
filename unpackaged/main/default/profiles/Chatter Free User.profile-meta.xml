@@ -3092,6 +3092,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ABC123__c-ABC123 LAYOUT TEST ME %3A%29 %3AD</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Game_For_Layout_Dev__c-A Game %28Layout Dev%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Game_For_Layout_Dev__c-A Game %28Layout Dev%29 Layout</layout>
+        <recordType>A_Game_For_Layout_Dev__c.Example_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Game_Soundtrack__c-Soundtrack Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3472,6 +3485,11 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>A_Game_For_Layout_Dev__c.Example_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
